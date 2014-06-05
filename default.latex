@@ -45,6 +45,8 @@ $endif$
 \IfFileExists{microtype.sty}{\usepackage{microtype}}{}
 $if(geometry)$
 \usepackage[$for(geometry)$$geometry$$sep$,$endfor$]{geometry}
+$else$
+\usepackage[margin=1.2in, a4paper]{geometry}
 $endif$
 $if(natbib)$
 \usepackage{natbib}

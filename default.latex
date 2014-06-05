@@ -132,7 +132,7 @@ $endif$
 
 % define shortcuts for some often needed math symbols
 \newcommand{\R}{\mathbb{R}}
-\newcommand{\C}{\mathbb{C}}
+\newcommand{\Complex}{\mathbb{C}}
 \newcommand{\df}[1]{\, \mathrm{d} #1}
 
 $if(title)$
